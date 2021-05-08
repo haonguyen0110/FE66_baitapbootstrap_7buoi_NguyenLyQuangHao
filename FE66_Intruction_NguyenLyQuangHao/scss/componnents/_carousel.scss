@@ -1,0 +1,41 @@
+  .tales {
+        width: 100%;
+      }
+      .carousel-inner{
+        width:100%;
+        max-height: 700px !important;
+      }
+
+      #carousel{
+          .carousel-caption{
+              top: 30%!important;
+          }
+          .carousel-indicators{
+              top: 72%!important;
+          }
+          .carousel__text{
+              width: 40%;
+              margin: 0 auto;
+              h5{
+                  font-size: 3rem;
+                  font-weight: 300;
+                  span{
+                      font-weight: bold;
+                  }
+              }
+              p{
+                 font-size: 1rem;
+                 line-height: 1.8rem;
+                 letter-spacing: 4px; 
+              }
+          }
+          .carousel__btn{
+              background: none;
+              border: 1px solid white;
+              font-size: 1rem;
+              border-radius: 0;
+              span{
+                  font-size: 0.8rem;
+              }
+          }
+      }

@@ -1,0 +1,53 @@
+#testimonial{
+    text-align: center;
+    background-image: url("./../images/banner3.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 601px;
+    padding: 3rem;
+    padding-bottom: 40rem;
+    h1{
+        font-size: $h1-font-size;
+        color: $primary-color;
+        
+    }
+    h3{
+        font-size: $primary-color;
+        color: $secondary-color;
+        position: relative;
+        letter-spacing: 1.3px;
+        &::after{
+            @include after(white,3px ,5%,-80%,46% );
+        }
+    }
+    .testimonial__list{
+        margin-top: 5rem;
+        border: 1px solid #999999;
+        padding: 3rem 4rem;
+        text-align: left;
+        box-shadow: 2px 2px 2px 1px #888888;
+        .item__text{
+            background-color: #27221fa6;
+            padding: 1rem ;
+        }
+        .item__test{
+            margin: 2rem 3rem;
+            p{
+                line-height: 0.5;
+                color: $primary-color;
+                font-weight: 500;
+            }
+            .test__name{
+                color: $secondary-color;
+                font-weight: 500;
+            }
+        }
+        img{
+            width: 20%;
+            height: 20%;
+            margin-right: 1rem;
+        }
+        
+    }
+}

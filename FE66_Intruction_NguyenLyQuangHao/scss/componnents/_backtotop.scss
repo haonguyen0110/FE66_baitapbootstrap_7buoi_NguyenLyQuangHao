@@ -1,0 +1,19 @@
+.backToTop{
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
+.backToTop a{
+    opacity: 0;
+}
+.backToTop .cd-top--fade-out {
+    opacity: 1;
+  }
+.backToTop .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.backToTop i{
+    color: $primary-color;
+}

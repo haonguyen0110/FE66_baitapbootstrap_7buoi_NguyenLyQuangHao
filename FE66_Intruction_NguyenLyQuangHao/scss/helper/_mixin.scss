@@ -1,0 +1,11 @@
+@mixin after($bg, $hei, $w,$bt,$l) {
+    content: "";
+    height: $hei;
+    background-color: $bg;
+    width: $w;
+    bottom: $bt;
+    left:$l;
+    position: absolute;
+    display: block;
+    transition: 0.5s all;
+}

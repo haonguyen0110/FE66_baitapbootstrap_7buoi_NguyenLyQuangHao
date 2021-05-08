@@ -1,0 +1,57 @@
+footer{
+    padding-top: $section-padding-top;
+    background-color: #141415;
+    margin-bottom: 1rem;
+    h4{
+        color: $primary-color;
+        margin-bottom: 2.5rem;
+    }
+    a{
+        transition: all 0.5s;
+        &:hover{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    p,li,a{
+        color: $p-color;
+    }
+    ul li{
+        margin: 1rem 0;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    i{
+        margin-right: 1rem;
+    }
+    .footer__signup{
+        margin-top: 2rem;
+    }
+    input{
+        padding: 0.8rem;
+        width: 55%;
+        margin-left: 2rem;
+    }
+    .btn{
+        background-color: $primary-color;
+        color: white;
+        padding: 0.5rem 2rem;
+    }
+    .coppy{
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+        background-color: black;
+        line-height: 3rem ;
+    }
+    span{
+        color: $primary-color;
+        transition: 0.5s all;
+        &:hover{
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

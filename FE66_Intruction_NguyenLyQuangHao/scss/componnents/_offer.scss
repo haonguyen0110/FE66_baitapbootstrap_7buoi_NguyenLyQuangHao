@@ -1,0 +1,44 @@
+#offer{
+    text-align: center;
+    padding: $section-padding-top 0;
+    h1{
+        font-size: $h1-font-size;
+        color: $primary-color;
+        font-weight: bold;
+    }
+
+    h3{
+        font-size: $h3-font-size;
+        letter-spacing: 1.3px;
+        margin: 1.5rem 0;
+        position: relative;
+        &::after{
+            @include after(black,3px ,5%,-80%,48% );
+        }
+    }
+
+    .offer__gird{
+        
+        margin-top: 5rem;
+        
+        i{
+            font-size: 2.3rem;
+            color: $primary-color;
+            margin-bottom: 2rem;
+        }
+        p{
+            color: $p-color
+        }
+
+        .offer__item{
+            padding: 1.5rem;
+            border: 1px solid #999;
+            margin: 0.8rem;
+            box-shadow: 4px 5px rgba(146, 141, 141, 0.144);
+            transition: 0.5s all;
+            &:hover{
+                background-color: #12ccc3;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.modal{
+    .modal-content{
+        padding: 0.5rem;
+        width: 610px;
+        img{
+            width: 100%;
+        }
+        h5{
+            color: $primary-color;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        p{
+            margin-top: 2rem;
+            color: $p-color;
+            letter-spacing: 1.3px;
+        }
+    }
+   
+}

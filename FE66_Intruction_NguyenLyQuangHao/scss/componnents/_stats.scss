@@ -1,0 +1,42 @@
+#stats{
+    text-align: center;
+    padding: $section-padding-top 0;
+    background-image: url("./../images/g1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 499px;
+    h1{
+        font-size: $h1-font-size;
+        color: $primary-color;
+        font-weight: bold;
+    }
+    h3{
+        font-size: $h3-font-size;
+        color: $secondary-color;
+        font-weight: bold;
+        margin: 1.5rem 0;
+        position: relative;
+        &::after{
+            @include after(black,3px ,5%,-80%,48% );
+        }
+    }
+    .stats__count{
+        margin-top: 5rem;
+        i{
+            font-size: 2.8rem;
+            color: $secondary-color;
+            margin-bottom: 1rem;
+        }
+
+        h4{
+            color: $primary-color;
+            font-weight: bold;
+        }
+        p{
+            font-size: 3rem;
+            color: $secondary-color;
+        }
+    }
+
+}
